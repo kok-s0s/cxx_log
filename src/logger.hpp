@@ -4,6 +4,8 @@
 #include <iomanip>
 #include <iostream>
 
+#define KLOG klog::Logger::getInstance("")
+
 namespace klog {
 
 class Logger {
